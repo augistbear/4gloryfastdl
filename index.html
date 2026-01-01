@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory Gamemode - FastDL Server</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0 0 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        .status {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(76, 175, 80, 0.3);
+            border: 2px solid #4CAF50;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            font-size: 0.9em;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Glory Gamemode</h1>
+        <p>FastDL Server</p>
+
+        <div class="status">
+            ✓ Server Online
+        </div>
+
+        <div class="info">
+            <p><strong>What is this?</strong></p>
+            <p>This is a FastDL (Fast Download) server for the Glory gamemode. It automatically serves custom content to players connecting to the server.</p>
+
+            <p style="margin-top: 20px;"><strong>How it works:</strong></p>
+            <p>Files are automatically downloaded by the game client when needed. You don't need to manually download anything from this page.</p>
+
+            <p style="margin-top: 20px; font-size: 0.8em; opacity: 0.7;">
+                Files are served from: <code>/sound/</code>, <code>/materials/</code>, <code>/models/</code>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
