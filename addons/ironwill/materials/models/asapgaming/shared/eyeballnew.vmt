@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/asapgaming/shared/eyeballnew"
-"$bumpmap"	"dev\flat_normal"
-	$halflambert 1
-}
