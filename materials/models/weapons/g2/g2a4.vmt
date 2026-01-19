@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+$surfaceprop "metal"
+$basetexture "models\weapons\g2\g2a4_col"
+$bumpmap "models\weapons\g2\g2a4_nml"
+$phong 1
+$phongboost 1
+$phongexponent 30
+$phongfresnelranges "[.5 .4 .4]"
+}
